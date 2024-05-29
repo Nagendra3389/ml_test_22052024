@@ -2,7 +2,7 @@ from ml_flow_22052024.config.configuration import ConfigurationManager
 from ml_flow_22052024.components.data_ingetion import DataIngestion
 from ml_flow_22052024 import logger
 
-Stage_name = " Data ingetion "
+Stage_name = " stage01 Data ingetion "
 
 class Dataingetionpipeline:
     def __init__(self):
@@ -19,7 +19,7 @@ class Dataingetionpipeline:
 if __name__ == '__main__':
     try:
         logger.info(f"<<<<<<<< Stage {Stage_name} is started >>>>>>>")
-        obj = Dataingetionpipeline
+        obj = Dataingetionpipeline()
         obj.main()
         logger.info(f"<<<<<<<< Stage {Stage_name} is Completed >>>>>>>")
     except Exception as e:
