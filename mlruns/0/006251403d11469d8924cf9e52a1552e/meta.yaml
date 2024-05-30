@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Programming.com/Desktop/ref/mlflow_22052024/ml_test_22052024/mlruns/0/006251403d11469d8924cf9e52a1552e/artifacts
+end_time: 1717064215665
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 006251403d11469d8924cf9e52a1552e
+run_name: brawny-fowl-244
+run_uuid: 006251403d11469d8924cf9e52a1552e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717064215577
+status: 4
+tags: []
+user_id: Programming.com

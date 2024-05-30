@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Programming.com/Desktop/ref/mlflow_22052024/ml_test_22052024/mlruns/0/90601ca8c3424152a03602cd9167da8b/artifacts
+end_time: 1717065980262
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 90601ca8c3424152a03602cd9167da8b
+run_name: vaunted-eel-516
+run_uuid: 90601ca8c3424152a03602cd9167da8b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717065980203
+status: 4
+tags: []
+user_id: Programming.com

@@ -1,7 +1,7 @@
 from ml_flow_22052024.constants import *
 from ml_flow_22052024.utils.common import read_yaml,create_directories
 from ml_flow_22052024.entity.config_entity import DataIngestionConfig,DataValidationConfig,DataTransformationConfig
-from ml_flow_22052024.entity.config_entity import Model_trainingConfig
+from ml_flow_22052024.entity.config_entity import Model_trainingConfig,ModelEvaluationConfig
 
 
 class ConfigurationManager:
@@ -79,3 +79,22 @@ class ConfigurationManager:
          )
 
          return model_training_config
+    
+
+    def get_data_model_eval_config(self) -> ModelEvaluationConfig:
+         config = self.config.model_evaluation
+         params = self.params.ElasticNet
+         schema = self.schema.TARGET_COLUMN
+
+         model_eval_config = ModelEvaluationConfig(
+              root_dir= config.root_dir,
+              test_data_path = config.test_data_path,
+              model_path = config.model_path,
+              metric_file_name = config.metric_file_name,
+              all_params = params,
+              target_column = schema.name,
+              mlflow_uri = 'https://dagshub.com/pnagendra341/ml_test_22052024.mlflow'
+         )
+
+         return model_eval_config
+
