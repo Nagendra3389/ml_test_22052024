@@ -1,7 +1,7 @@
 from ml_flow_22052024.constants import *
 from ml_flow_22052024.utils.common import read_yaml,create_directories
 from ml_flow_22052024.entity.config_entity import DataIngestionConfig,DataValidationConfig,DataTransformationConfig
-
+from ml_flow_22052024.entity.config_entity import Model_trainingConfig
 
 
 class ConfigurationManager:
@@ -60,3 +60,22 @@ class ConfigurationManager:
          )
 
          return data_transfermation_config
+    
+
+    def get_model_training_config(self) -> Model_trainingConfig:
+         config = self.config.model_trainer
+         params = self.params.ElasticNet
+         schema = self.schema.TARGET_COLUMN
+         create_directories([config.root_dir])
+
+         model_training_config = Model_trainingConfig(
+              root_dir = config.root_dir,
+              train_data_path = config.train_data_path,
+              test_data_path = config.test_data_path,
+              model_name = config.model_name,
+              alpha = params.alpha,
+              l1_ratio = params.l1_ratio,
+              target_column = schema.name
+         )
+
+         return model_training_config
