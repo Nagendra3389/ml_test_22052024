@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/Programming.com/Desktop/ref/mlflow_22052024/ml_test_22052024/mlruns/0/625280e84af2463192fa7e74456593a9/artifacts
+deleted_time: 1717068044680
+end_time: 1717067668454
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 625280e84af2463192fa7e74456593a9
+run_name: shivering-sloth-273
+run_uuid: 625280e84af2463192fa7e74456593a9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717067668408
+status: 4
+tags: []
+user_id: Programming.com

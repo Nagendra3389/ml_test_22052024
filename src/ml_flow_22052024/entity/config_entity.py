@@ -33,6 +33,7 @@ class Model_trainingConfig:
     target_column: str
 
 
+
 @dataclass(frozen=True)
 class ModelEvaluationConfig:
     root_dir: Path

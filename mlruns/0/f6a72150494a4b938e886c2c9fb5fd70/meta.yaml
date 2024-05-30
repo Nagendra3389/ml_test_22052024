@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/Programming.com/Desktop/ref/mlflow_22052024/ml_test_22052024/mlruns/0/f6a72150494a4b938e886c2c9fb5fd70/artifacts
+deleted_time: 1717068044681
+end_time: 1717066970151
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: f6a72150494a4b938e886c2c9fb5fd70
+run_name: clumsy-doe-257
+run_uuid: f6a72150494a4b938e886c2c9fb5fd70
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717066970100
+status: 4
+tags: []
+user_id: Programming.com

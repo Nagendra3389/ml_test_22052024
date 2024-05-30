@@ -85,6 +85,8 @@ class ConfigurationManager:
          config = self.config.model_evaluation
          params = self.params.ElasticNet
          schema = self.schema.TARGET_COLUMN
+         
+         create_directories([config.root_dir])
 
          model_eval_config = ModelEvaluationConfig(
               root_dir= config.root_dir,

@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/Programming.com/Desktop/ref/mlflow_22052024/ml_test_22052024/mlruns/0/7a95b8d6c31e481bb2700a4d48bd24a7/artifacts
+deleted_time: 1717068044684
 end_time: 1717064833632
 entry_point_name: ''
 experiment_id: '0'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 7a95b8d6c31e481bb2700a4d48bd24a7
 run_name: crawling-auk-524
 run_uuid: 7a95b8d6c31e481bb2700a4d48bd24a7
