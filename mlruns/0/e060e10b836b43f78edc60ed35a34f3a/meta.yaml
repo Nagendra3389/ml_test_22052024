@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/Programming.com/Desktop/ref/mlflow_22052024/ml_test_22052024/mlruns/0/e060e10b836b43f78edc60ed35a34f3a/artifacts
+deleted_time: 1717069152420
+end_time: 1717068781346
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: e060e10b836b43f78edc60ed35a34f3a
+run_name: wise-seal-286
+run_uuid: e060e10b836b43f78edc60ed35a34f3a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717068777378
+status: 4
+tags: []
+user_id: Programming.com
